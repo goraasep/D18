@@ -194,3 +194,58 @@ html{
     background-color: rgb(95, 95, 95);
     transition: all 0.5s;
 }
+
+@media screen and (max-width: 1000px){
+    .catalog-kuah,.catalog-goreng{
+        float: none;
+        width: 100%;
+    } 
+    .text-container{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 650px){
+    .text-container h3{
+        font-size: 15px;
+    }
+    .text-container{
+        width: 250px;
+        margin-top: 50px;
+    }
+    .header-list a{
+        margin-right: 2px;
+    }
+    .copyright,.contact{
+        float: none;
+        text-align: center;
+        margin: 30px 0 0px 0;   
+    }
+    .contact a{
+        margin: 0;
+    }
+    .footer{
+        height: auto;
+        margin: 0;
+    }
+    .catalog-kuah,.catalog-goreng{
+        margin-right: 0;
+        margin-left: 0;
+    } 
+}
+@media screen and (max-width: 450px){
+    .header-list a{
+        margin-right: 2px;
+        width: 50px;
+        font-size: 10px;
+    }
+    .catalog-wrapper{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 350px){
+    .text-container{
+        width: 200px;
+        margin: 50px 0;
+    }
+}
